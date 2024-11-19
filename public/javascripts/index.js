@@ -16,6 +16,11 @@ function handleTestAnimation(event){
   return event.target.classList.remove('animated', 'bounceIn')
 }
 
+
+function handleAnimationStart(event) {
+  return event.target.classList.remove('animated', 'bounceOut')
+}
+
 urlForm.addEventListener('submit', event => {
 
   event.preventDefault()
