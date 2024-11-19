@@ -12,6 +12,9 @@ function copyUrl() {
 function handleAnimationEnd(event) {
   return event.target.classList.remove('animated', 'bounceIn')
 }
+function handleTestAnimation(event){
+  return event.target.classList.remove('animated', 'bounceIn')
+}
 
 urlForm.addEventListener('submit', event => {
 
